@@ -25,7 +25,7 @@ class Card extends Component {
             &nbsp; ואין להם שום תוכן חדש לספק ללקוחות
           </p>
 
-          <p className="author"> שירית גל</p>
+          <p className="author">  שירית גל</p>
         </div>
       </div>
     );
