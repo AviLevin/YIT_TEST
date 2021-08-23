@@ -1,7 +1,5 @@
 import React  from 'react';
 import './Footer.module.css';
-import logo from '../../assets/logo.svg';
-
 
 const Footer = () => {
 	
@@ -17,14 +15,14 @@ const Footer = () => {
 				>
 					YIT
 				</a>{' '}
-				using
+				using{' '}
 				<a
 					href="https://reactjs.org/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					 <img src={logo} className="logo" alt="logo" />
-				</a>
+					React
+				</a>{' '}
 				with ❤️ by{' '}
 				<a
 					href="https://github.com/AviLevin"

@@ -3,15 +3,13 @@ import "./Card.css";
 import img1 from "../../assets/img1.jpg";
 
 class Card extends Component {
-  
+  state = {};
   render() {
-
-    const {value} = this.props;
     return (
       <div className="card-card" style={{ width: "18rem" }}>
         <img className="card-img-top imgArea" src={img1} alt="Card image cap" />
         <div className="card-body">
-          <p className="category"> {value}</p>
+          <p className="category"> ספורט ימי</p>
           <h5 className="card-title">
             סיור קולינרי בין המסעדות הכי טובות בצפון הארץ לא כולל מזנוני אוכל
             ומאפיות מקומיות

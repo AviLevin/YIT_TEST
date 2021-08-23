@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import "./SideBar.css";
 
 class SideBar extends Component {
-  
-  
+  state = {};
 
 
-
+   handleChange = (e) =>  {
+    console.log(e.target.value);
+  }
   render() {
-
-    const {onChange} = this.props;
     return (
       <div className="sidebar1">
         <span>צבע רקע - שם קטגוריה</span>
@@ -26,10 +25,10 @@ class SideBar extends Component {
           <input
             type="text"
             className="form-control"
-            placeholder="Edit Category"
+            placeholder="Username"
             aria-label="Username"
             aria-describedby="basic-addon1"
-            onChange={onChange}
+            onChange={this.handleChange}D
           />
         </div>
       </div>

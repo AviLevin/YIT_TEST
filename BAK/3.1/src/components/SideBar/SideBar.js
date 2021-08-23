@@ -26,7 +26,7 @@ class SideBar extends Component {
           <input
             type="text"
             className="form-control"
-            placeholder="Edit Category"
+            placeholder="Username"
             aria-label="Username"
             aria-describedby="basic-addon1"
             onChange={onChange}

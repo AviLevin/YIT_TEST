@@ -58,19 +58,6 @@
 }
 
 
-.logo {
-    height: 4vmin;
-    pointer-events: none;
-    
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .logo {
-      animation: logo-spin infinite 20s linear;
-    }
-  }
-
-
 /* Small screens */
 @media only screen and (max-width: 500px) {
     .FooterStyles {
@@ -78,13 +65,3 @@
         word-wrap: wrap;
     }
 }
-
-@keyframes logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
