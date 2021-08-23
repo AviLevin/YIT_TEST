@@ -27,9 +27,9 @@ class SideBar extends Component {
               </option>
             ))}
           </select>
-          {/* <h1>Favorite letter: {val}</h1> */}
+          <h1>Favorite letter: {val}</h1>
 
-          {/* <div style={{backgroundColor:val}}>dd</div> */}
+          <div style={{backgroundColor:val}}>dd</div>
 
         </div>
 
