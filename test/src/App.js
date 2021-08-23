@@ -46,8 +46,8 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="row">
-            <div className="col-6">
-              <Card value={this.state.value} val={val} />
+            <div className="col-6 ">
+              < Card value={this.state.value} val={val} />
             </div>
 
             <div className="col-6">
