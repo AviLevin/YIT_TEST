@@ -1,4 +1,6 @@
+// import React  from "react";
 import React, { Component } from "react";
+
 import "./App.css";
 import Card from "./components/Card/Card";
 import SideBar from "./components/SideBar/SideBar";
@@ -9,7 +11,7 @@ class App extends Component {
     value: "ספורט ימי",
     options: [
       {
-        name: "ערוך...",
+        name: "Select…",
         val: null,
       },
       {
@@ -21,8 +23,8 @@ class App extends Component {
         val: "green",
       },
       {
-        name: "צהוב",
-        val: "yellow",
+        name: "C",
+        val: "c",
       },
     ],
     val: "?",

@@ -4,7 +4,7 @@ import "./SideBar.css";
 class SideBar extends Component {
   render() {
     const { onChange, onColor, val, options } = this.props;
-
+    console.log(val);
     return (
       <div className="sidebar1">
         <span>צבע רקע - שם קטגוריה</span>
@@ -16,6 +16,7 @@ class SideBar extends Component {
               </option>
             ))}
           </select>
+        
         </div>
 
         <span>שם קטגוריה</span>
@@ -23,7 +24,7 @@ class SideBar extends Component {
           <input
             type="text"
             className="form-control"
-            placeholder="ערוך קטגוריה"
+            placeholder="Edit Category"
             aria-label="Username"
             aria-describedby="basic-addon1"
             onChange={onChange}
