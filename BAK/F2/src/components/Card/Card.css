@@ -13,30 +13,37 @@
 }
 
 .imgArea {
-  max-width: 314px;
-  max-height: 176px;
+  width: 314px;
+  height: 176px;
   left: 0;
 }
 
+
+/* [1] The container */
 .img-hover-zoom {
-  max-height: 176px;
-  overflow: hidden;
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
+/* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
-  transition: transform 0.5s ease;
+  transition: transform .5s ease;
 }
 
+/* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
   transform: scale(1.5);
 }
 
 .category {
+ 
   height: 20px;
   top: 196px;
   right: 20px;
   position: absolute;
   background-color: #ed1c24;
+ 
+
 }
 
 .category span {
@@ -58,7 +65,7 @@
   color: #db1bd2;
 
   font-weight: bold;
-  display: block;
+  display: block; 
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
@@ -66,7 +73,7 @@
 }
 
 .subTitle {
-  display: block;
+  display: block; 
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
@@ -92,4 +99,5 @@
   top: 352px;
   right: 20px;
   font-weight: bold;
+  
 }

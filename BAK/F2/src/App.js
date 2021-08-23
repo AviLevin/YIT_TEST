@@ -13,10 +13,6 @@ class App extends Component {
         val: null,
       },
       {
-        name: "סגול",
-        val: "purple",
-      },
-      {
         name: "אדום",
         val: "red",
       },
@@ -59,6 +55,11 @@ class App extends Component {
               />
             </div>
           </div>
+<br></br>
+<br></br>
+<div className="img-hover-zoom">
+<img  src="https://www.w3schools.com/css/paris.jpg" alt="Paris" width="300" height="300"/>
+</div>
           <Footer></Footer>
         </div>
       </div>
