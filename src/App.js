@@ -4,7 +4,7 @@ import Card from "./components/Card/Card";
 import SideBar from "./components/SideBar/SideBar";
 import Footer from "./components/Footer/Footer";
 
-class App extends Component {
+class App extends Component { 
   state = {
     value: "ספורט ימי",
     options: [
